@@ -1,0 +1,44 @@
+
+
+ul {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 900px;
+}
+
+li {
+  font-weight: bolder;
+  background-color: white;
+  border-radius: 10px;
+  list-style: none;
+  flex: 1;
+  margin: 15px;
+  max-width: 100%;
+  height: 450px;
+  text-align: center;
+  padding-top: 1.2rem;
+  font-size: 2rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  border: 2px solid black;
+}
+
+.icon {
+  display: block;
+  width: 290px;
+  height: 375px;
+  background-image: url("./images/d416199ca6ecdbd0f8a3.png");
+}
+
+.i-html {
+  background-position: 4px 0;
+}
+
+.i-css {
+  background-position: -286px 0;
+}
+
+.i-js {
+  background-position: -576px 0;
+}
